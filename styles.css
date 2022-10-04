@@ -65,15 +65,22 @@ a:link, a:visited {
     font-size: 18px;
 }
 
-.signup-button-top {
+.signup-button {
     background-color: #3882F6;
     color: white;
     padding: 10px 20px;
-    border: 2px solid #3882F6;
     border-radius: 5px;
     margin-top: 10px;
     font-weight: bold;
     width: 110px;
+}
+
+.top {
+    border: 2px solid #3882F6;
+}
+
+.bottom {
+    border: 2px solid white;
 }
 
 
@@ -168,6 +175,33 @@ a:link, a:visited {
     font-size: 18px;
 }
 
+.fifth-part {
+    display: flex;
+    justify-content: center;
+}
+
+.calltoaction-container {
+    display: flex;
+    justify-content: center;
+    background-color: white;
+    gap: 30px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.calltoaction-blue {
+    background-color: #3882F6;
+    display: flex;
+    justify-content: space-around;
+    padding: 40px 40px;
+    border-radius: 10px;
+    flex: 1;
+}
+
+.left-side-call {
+    color: white;
+    padding-right: 180px;
+}
 
 .footer {
     display:flex;
