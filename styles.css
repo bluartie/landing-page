@@ -122,7 +122,15 @@ a:link, a:visited {
     background-color: white;
 }
 
+.subtext-container {
+    display: flex;
+    justify-content: center;
+}
 
+.image-and-subtext {
+    max-width: 150;
+    text-align: center;
+}
 
 
 
